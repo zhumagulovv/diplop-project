@@ -6,13 +6,15 @@ import CartPage from "../pages/CartPage/CartPage";
 import ContactPage from "../pages/ContactPage/ContactPage";
 import ServicePage from "../pages/ServicePage/ServisePage";
 import OrderPage from "../pages/OrderPage/OrderPage";
+import CarDetail from "../pages/CarDetail/CarDetail";
 
 export const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
-      { path: "", element: <HomePage /> },
+      { path: "/", element: <HomePage /> },
+      { path: "/:id", element: <CarDetail /> },
       { path: "about", element: <AboutPage /> },
       { path: "cart", element: <CartPage /> },
       { path: "contact", element: <ContactPage /> },

@@ -1,9 +1,7 @@
 import React from "react";
 
-interface Props {}
-
-const OrderPage = (props: Props) => {
-  return <div>OrderPage</div>;
+const OrderPage:React.FC = () => {
+  return <div className="container">OrderPage</div>;
 };
 
 export default OrderPage;

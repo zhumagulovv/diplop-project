@@ -1,9 +1,7 @@
 import React from "react";
 
-interface Props {}
-
-const CartPage = (props: Props) => {
-  return <div className="service-page main">CartPage</div>;
+const CartPage: React.FC = () => {
+  return <div className="container">CartPage</div>;
 };
 
 export default CartPage;

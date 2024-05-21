@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
-import { MdOutlineShoppingCart } from "react-icons/md";
+import { FaWhatsapp } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import React from "react";
 
-function Navbar() {
-  
+const Footer: React.FC = () => {
   return (
-    <header className="py-5">
-      <nav className="container mx-auto flex justify-between">
+    <footer className="py-5 bg-[#05141f]">
+      <div className="container mx-auto flex justify-between items-start">
         <div className="">
           <Link to="/">
             <svg
@@ -14,7 +16,7 @@ function Navbar() {
               viewBox="2468 1047.800048828125 100 23.5"
             >
               <path
-                fill="#000"
+                fill="#fff"
                 stroke=""
                 strokeWidth="100"
                 id="tSvg705"
@@ -22,32 +24,25 @@ function Navbar() {
               ></path>
             </svg>
           </Link>
+          <div className="">
+            <p></p>
+          </div>
         </div>
-        <div>
-          <ul className="flex items-center gap-20">
-            <li>
-              <Link to="/">Главный</Link>
-            </li>
-            <li>
-              <Link to="/about">О нас</Link>
-            </li>
-            <li>
-              <Link to="/service">Сервис</Link>
-            </li>
-            <li>
-              <Link to="/contact">Контакты</Link>
-            </li>
-          </ul>
-        </div>
+        <div className="">fff</div>
         <div className="flex items-center gap-5">
-          <a href="tel:+995774814583">+996 774 814 583</a>
-          <Link to="/cart">
-            <MdOutlineShoppingCart className="w-5 h-5"/>
-          </Link>
+          <a href="https://wa.me/+996774814583">
+            <FaWhatsapp className="w-5 h-6" />
+          </a>
+          <a href="https://t.me/+996774814583">
+            <FaTelegramPlane className="w-5 h-6 text-white" />
+          </a>
+          <a href="https://wa.me/+996774814583">
+            <FaInstagram className="w-5 h-6" />
+          </a>
         </div>
-      </nav>
-    </header>
+      </div>
+    </footer>
   );
-}
+};
 
-export default Navbar;
+export default Footer;
