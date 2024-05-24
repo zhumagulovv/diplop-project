@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "../../components/UI/Card";
+import Card from "../../Components/UI/Card";
 
 const HomePage:React.FC = () => {
   return (

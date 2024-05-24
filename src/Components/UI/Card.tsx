@@ -1,5 +1,5 @@
 import React from "react";
-import { useData, DataProvider } from "../context";
+import { useData, DataProvider } from "../Context";
 import { Link } from "react-router-dom";
 
 const CardDisplay = () => {

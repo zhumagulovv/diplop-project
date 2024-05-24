@@ -1,16 +1,18 @@
 import React from "react";
 
-import oneSvg from "../../assets/svg/1.svg";
-import twoSvg from "../../assets/svg/2.svg";
-import threeSvg from "../../assets/svg/3.svg";
-import fourSvg from "../../assets/svg/4.svg";
+import oneSvg from "../../Assets/svg/1.svg";
+import twoSvg from "../../Assets/svg/2.svg";
+import threeSvg from "../../Assets/svg/3.svg";
+import fourSvg from "../../Assets/svg/4.svg";
 
 const ServicePage: React.FC = () => {
   return (
     <div className="container">
       <section>
-        <div className="text-center text-2xl">Преимущества технического обслуживания Kia</div>
-        <div className="flex justify-between">  
+        <div className="text-center text-2xl">
+          Преимущества технического обслуживания Kia
+        </div>
+        <div className="flex justify-between">
           <div className="w-80 p-5">
             <img className="w-10" src={oneSvg} alt="service image" />
             <p>Профессионально обученный персонал сервиса Kia</p>
