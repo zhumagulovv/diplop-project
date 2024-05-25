@@ -28,7 +28,7 @@ const CardDisplay = () => {
               </div>
               <div className="text-center">
                 <h2>{el.model}</h2>
-                <p>{el.price}</p>
+                <p>{el.price} $</p>
               </div>
               <div className="flex justify-center">
                 <Link to={`/${el.id}`} className="w-48 h-12 bg-[#05141f] text-white flex items-center justify-center">

@@ -45,3 +45,10 @@ export interface Car {
 }
 
 export type ItemType = Models & Car;
+
+export interface CartItem {
+  id: number;
+  model: string;
+  price: number;
+  image: string;
+}

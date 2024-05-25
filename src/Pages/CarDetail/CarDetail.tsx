@@ -30,10 +30,11 @@ const CarDetail: React.FC = () => {
 
   const handleClickId = () => {
     handleClick(car.id);
+    alert(`Ваш товар в корзине ${car.model}`);
   };
 
   return (
-    <div className="container py-5">
+    <div className="container py-5 h-screen">
       <div className="flex items-start">
         <img className="w-2/5" src={car.image} alt="car image" />
         <div className="W-88">
@@ -63,7 +64,7 @@ const CarDetail: React.FC = () => {
               Привод: <p>{car.drive}</p>
             </div>
             <div className="flex items-center gap-2">
-              Цена: <p>{car.price}</p>
+              Цена: <p>{car.price} $</p>
             </div>
             <dl>
               <dt>Характеристики:</dt>
@@ -108,7 +109,7 @@ const CarDetail: React.FC = () => {
               </dd>
               <dd className="mx-3">
                 <div className="flex items-center gap-2">
-                  Удовольствие от вожления:{" "}
+                  Удовольствие от вождения:{" "}
                   <p>{car.test_results.driving_experience}</p>
                 </div>
               </dd>
@@ -116,12 +117,7 @@ const CarDetail: React.FC = () => {
           </div>
           <div className="flex items-center gap-10 my-5">
             <Button title="Назад" to="/" />
-            <Button
-              title="В корзину"
-              action={() => {
-                handleClickId;
-              }}
-            />
+            <Button title="В корзину" action={handleClickId} />
           </div>
         </div>
       </div>

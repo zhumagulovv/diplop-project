@@ -1,24 +1,26 @@
+// Button.tsx
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
-type ButtonType = {
+type ButtonProps = {
   title: string;
-  action?: () => void;
   to?: string;
+  state?: any;
+  action?: () => void;
 };
 
-const Button: React.FC<ButtonType> = ({ title, action, to }) => {
-  const navigate = useNavigate();
-
+const Button: React.FC<ButtonProps> = ({ title, to, state, action }) => {
   const handleClick = () => {
     if (to) {
-      navigate(to);
+      if (state) {
+        window.location.href = `${to}`;
+      } else {
+        window.location.href = `${to}`;
+      }
     } else if (action) {
       action();
-      console.log(action());
-      alert(action());
     }
   };
+
   return (
     <button
       onClick={handleClick}

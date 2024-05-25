@@ -1,7 +1,7 @@
 {
   "models": [
     {
-      "id": 1,
+      "id": "1",
       "model": "Kia Sportage",
       "image": "https://optim.tildacdn.one/tild6633-6435-4739-b234-373733306166/-/resize/825x/-/format/webp/sportage_new_1_auto_.png",
       "year": "2023",
@@ -11,7 +11,7 @@
       "power": "184 л.с.",
       "transmission": "Автоматическая",
       "drive": "Полный",
-      "price": "36000$",
+      "price": "36000",
       "features": {
         "display": "10.25-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 6 подушек безопасности",
@@ -26,7 +26,7 @@
       }
     },
     {
-      "id": 2,
+      "id": "2",
       "model": "Kia EV9",
       "image": "https://optim.tildacdn.one/tild3238-3435-4137-a561-643763663665/-/resize/772x/-/format/webp/image.png",
       "year": "2023",
@@ -36,7 +36,7 @@
       "power": "200 кВт",
       "transmission": "Автоматическая",
       "drive": "Полный",
-      "price": "45000$",
+      "price": "45000",
       "features": {
         "display": "12.3-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 8 подушек безопасности",
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": 3,
+      "id": "3",
       "model": "Kia EV6",
       "image": "https://optim.tildacdn.one/tild3466-3665-4130-a434-326439306236/-/resize/772x/-/format/webp/KLG_steelgray_00047.png",
       "year": "2023",
@@ -61,7 +61,7 @@
       "power": "320 л.с.",
       "transmission": "Автоматическая",
       "drive": "Полный",
-      "price": "45000$",
+      "price": "45000",
       "features": {
         "display": "12.3-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 7 подушек безопасности, ADAS",
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4",
       "model": "Kia Carnival",
       "image": "https://optim.tildacdn.one/tild3735-6265-4561-a332-333964613866/-/resize/825x/-/format/webp/Carnival_half.png",
       "year": "2023",
@@ -86,7 +86,7 @@
       "power": "290 л.с.",
       "transmission": "Автоматическая",
       "drive": "Передний",
-      "price": "40000$",
+      "price": "40000",
       "features": {
         "display": "12.3-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 10 подушек безопасности, ADAS",
@@ -101,7 +101,7 @@
       }
     },
     {
-      "id": 5,
+      "id": "5",
       "model": "Kia K5",
       "image": "https://optim.tildacdn.one/tild6232-3236-4136-b065-623530643931/-/resize/950x/-/format/webp/k5_1.png",
       "year": "2023",
@@ -111,7 +111,7 @@
       "power": "290 л.с.",
       "transmission": "Автоматическая",
       "drive": "Передний",
-      "price": "36000$",
+      "price": "36000",
       "features": {
         "display": "10.25-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 9 подушек безопасности, ADAS",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": 6,
+      "id": "6",
       "model": "Kia Sorento",
       "image": "https://optim.tildacdn.one/tild3937-6436-4438-a532-313834626530/-/resize/780x/-/format/webp/d3ddc53e7a51594b360a.png",
       "year": "2023",
@@ -136,7 +136,7 @@
       "power": "281 л.с.",
       "transmission": "Автоматическая",
       "drive": "Передний",
-      "price": "46000$",
+      "price": "46000",
       "features": {
         "display": "10.25-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 10 подушек безопасности, ADAS",
@@ -151,7 +151,7 @@
       }
     },
     {
-      "id": 7,
+      "id": "7",
       "model": "Kia Seltos",
       "image": "https://optim.tildacdn.one/tild6233-6263-4436-a437-336431313335/-/resize/780x/-/format/webp/000.png",
       "year": "2023",
@@ -161,7 +161,7 @@
       "power": "175 л.с.",
       "transmission": "Автоматическая",
       "drive": "Полный",
-      "price": "28000$",
+      "price": "28000",
       "features": {
         "display": "10.25-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 6 подушек безопасности, ADAS",
@@ -176,7 +176,7 @@
       }
     },
     {
-      "id": 8,
+      "id": "8",
       "model": "Kia Ceed",
       "image": "https://optim.tildacdn.one/tild6432-3434-4437-a635-383538626637/-/format/webp/012.png",
       "year": "2023",
@@ -186,7 +186,7 @@
       "power": "140 л.с.",
       "transmission": "Автоматическая",
       "drive": "Передний",
-      "price": "21000$",
+      "price": "21000",
       "features": {
         "display": "8-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 6 подушек безопасности, ADAS",
@@ -201,7 +201,7 @@
       }
     },
     {
-      "id": 9,
+      "id": "9",
       "model": "Kia XCeed",
       "image": "https://static.tildacdn.one/tild6164-6165-4434-a364-326137333639/_1.png",
       "year": "2023",
@@ -211,7 +211,7 @@
       "power": "200 л.с.",
       "transmission": "Автоматическая",
       "drive": "Передний",
-      "price": "25000$",
+      "price": "25000",
       "features": {
         "display": "10.25-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 6 подушек безопасности, ADAS",
@@ -226,7 +226,7 @@
       }
     },
     {
-      "id": 10,
+      "id": "10",
       "model": "Kia Ceed SW",
       "image": "https://static.tildacdn.one/tild3031-3762-4962-b961-363536613335/_1.png",
       "year": "2023",
@@ -236,7 +236,7 @@
       "power": "200 л.с.",
       "transmission": "Автоматическая",
       "drive": "Передний",
-      "price": "22000$",
+      "price": "22000",
       "features": {
         "display": "8-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 6 подушек безопасности, ADAS",
@@ -251,7 +251,7 @@
       }
     },
     {
-      "id": 11,
+      "id": "11",
       "model": "Kia K7",
       "image": "https://static.tildacdn.one/tild3031-3762-4962-b961-363536613335/_1.png",
       "year": "2023",
@@ -261,7 +261,7 @@
       "power": "290 л.с.",
       "transmission": "Автоматическая",
       "drive": "Передний",
-      "price": "35000$",
+      "price": "35000",
       "features": {
         "display": "12.3-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 10 подушек безопасности, ADAS",
@@ -276,7 +276,7 @@
       }
     },
     {
-      "id": 12,
+      "id": "12",
       "model": "Kia Picanto",
       "image": "https://cdn.kia.ru/resize/400x198/master-data/models/picanto-Y21.png",
       "year": "2023",
@@ -286,7 +286,7 @@
       "power": "67 л.с.",
       "transmission": "Механическая",
       "drive": "Передний",
-      "price": "15000$",
+      "price": "15000",
       "features": {
         "display": "7-дюймовый сенсорный экран",
         "safety_system": "ABS, ESC, 2 подушки безопасности",

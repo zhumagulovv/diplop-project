@@ -2,11 +2,10 @@ import { Link } from "react-router-dom";
 import { MdOutlineShoppingCart } from "react-icons/md";
 
 function Navbar() {
-  
   return (
     <header className="py-5">
       <nav className="container mx-auto flex justify-between">
-        <div className="">
+        <div className="flex items-start gap-20">
           <Link to="/">
             <svg
               width="100"
@@ -22,27 +21,21 @@ function Navbar() {
               ></path>
             </svg>
           </Link>
-        </div>
-        <div>
-          <ul className="flex items-center gap-20">
-            <li>
-              <Link to="/">Главный</Link>
-            </li>
-            <li>
-              <Link to="/about">О нас</Link>
-            </li>
-            <li>
-              <Link to="/service">Сервис</Link>
-            </li>
-            <li>
-              <Link to="/contact">Контакты</Link>
-            </li>
-          </ul>
+          <div>
+            <ul className="flex items-center gap-20">
+              <li>
+                <Link to="/">Модельный ряд</Link>
+              </li>
+              <li>
+                <Link to="/service">Сервис</Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <div className="flex items-center gap-5">
           <a href="tel:+995774814583">+996 774 814 583</a>
           <Link to="/cart">
-            <MdOutlineShoppingCart className="w-5 h-5"/>
+            <MdOutlineShoppingCart className="w-5 h-5" />
           </Link>
         </div>
       </nav>

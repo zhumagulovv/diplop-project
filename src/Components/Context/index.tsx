@@ -60,6 +60,7 @@ export const DataProvider: React.FC<{ children: ReactNode }> = ({
         dispatch(
           addItem({
             id: foundCar.id,
+            image: foundCar.image,
             model: foundCar.model,
             price: Number(foundCar.price),
             quantity: 1,
