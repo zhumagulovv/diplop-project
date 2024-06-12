@@ -74,7 +74,7 @@ const Footer: React.FC = () => {
                 ></path>
               </svg>
             </a>
-            <a href="https://t.me/+996774814583">
+            <a href="https://www.instagram.com/accounts/onetap/?next=%2F">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="30"

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { useData } from "../../Components/Context";
 import Button from "../../Components/UI/Button";
 import { ItemType } from "../../interfaces";
@@ -117,7 +117,9 @@ const CarDetail: React.FC = () => {
           </div>
           <div className="flex items-center gap-10 my-5">
             <Button title="Назад" to="/" />
-            <Button title="В корзину" action={handleClickId} />
+            <Link to="/cart">
+              <Button title="В корзину" action={handleClickId} />
+            </Link>
           </div>
         </div>
       </div>
